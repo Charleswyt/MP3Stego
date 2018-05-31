@@ -31,6 +31,8 @@
 #ifndef _STEGO_H_
 #define _STEGO_H_
 
+#define _CRT_SECURE_NO_WARNINGS
+
 #if defined(_DEBUG)
 extern FILE *fLog;
 #endif

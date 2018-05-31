@@ -219,7 +219,7 @@
 #define         STEREO                  2
 #define         BITS_IN_A_BYTE          8
 #define         WORD                    16
-#define         MAX_NAME_SIZE           81
+#define         MAX_NAME_SIZE           260
 #define         SBLIMIT                 32
 #define         SSLIMIT                 18
 #define         FFT_SIZE                1024
@@ -231,7 +231,7 @@
 
 /* MPEG Header Definitions - ID Bit Values */
 #define         MPEG_AUDIO_ID           1
-#define		MPEG_PHASE2_LSF		0	/* 1995-07-11 SHN */
+#define			MPEG_PHASE2_LSF			0	/* 1995-07-11 SHN */
 
 /* MPEG Header Definitions - Mode Values */
 

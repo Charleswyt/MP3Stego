@@ -35,9 +35,12 @@
                          /* bit generator by skiping one 0   */
                          /* every COUNT_MAX 0                */
 
+#define _CRT_SECURE_NO_WARNINGS
+#define DONT_ENCRYPT_OR_COMPRESS
+
 #define TMP_FILE_EXT ("tmp")
 
-void GetTemporaryFileName(char pszTemp[256]);
+void GetTemporaryFileName(char pszTemp[260]);
 
 char *ReadPassPhrase(void);
 

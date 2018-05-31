@@ -270,7 +270,7 @@ if (frameNum == 0 && Arguments.need_esps) {
 #endif
 
 #if defined(_DEBUG)
-       fprintf(stderr, "\n[Frame %4lu]", frameNum++); fflush(stderr); 
+       fprintf(stderr, "\015[Frame %4lu]", frameNum++); fflush(stderr); 
 #else
        fprintf(stderr, "\015[Frame %4lu]", frameNum++); fflush(stderr); 
 #endif
@@ -557,7 +557,7 @@ static void GetArguments(int argc, char **argv, Arguments_t *Arguments)
    int i=0, err=0;
    
    programName = argv[0];
-   
+
    if (argc == 1) usage();
 
    Arguments->need_aiff = FALSE;

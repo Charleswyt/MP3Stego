@@ -189,7 +189,8 @@ int main(int argc, char **argv)
     print_header();
     set_defaults();
     if(!parse_command(argc,argv)) { print_usage(); return -1; }
-    if(!wave_open()) ERROR("Unable to open input file...");
+	
+	if (!wave_open()) ERROR("Unable to open input file...");
     check_config();
 
     printf("Encoding \"%s\" to \"%s\"\n", config.infile, config.outfile);

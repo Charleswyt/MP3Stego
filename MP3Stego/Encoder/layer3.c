@@ -30,7 +30,7 @@ static void update_status(int frames_processed)
 	fprintf(fLog, "[Frame %6d of %6ld] (%2.2f%%)\n", 
             frames_processed,config.mpeg.total_frames,
             (float)((float)frames_processed/config.mpeg.total_frames)*100); 
-    printf("\n[Frame %6d of %6ld] (%2.2f%%)", 
+    printf("\015[Frame %6d of %6ld] (%2.2f%%)", 
             frames_processed,config.mpeg.total_frames,
             (float)((float)frames_processed/config.mpeg.total_frames)*100); 
 #else

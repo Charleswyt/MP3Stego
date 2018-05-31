@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f9007744-9989-4d29-812e-8caed7d3ae77}</UniqueIdentifier>
+      <Extensions>*.c *.cpp</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{0c650d2f-84cf-4e48-a902-1df176324ca0}</UniqueIdentifier>
+      <Extensions>*.h *.hpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="huffman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ieeefloat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="musicout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="portableio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="decoder.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="huffman.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ieeefloat.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="portableio.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+</Project>

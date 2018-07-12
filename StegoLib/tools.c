@@ -84,15 +84,11 @@ extern char *pszPassword;
 static char pszPass[MAX_LEN];
 
 #if defined(_DEBUG)
+#define DONT_ENCRYPT_OR_COMPRESS
 /*#define DONT_ENCRYPT_OR_COMPRESS*/
 #ifdef DONT_ENCRYPT_OR_COMPRESS
 static void CopyFile(const char *in, const char *out);
 #endif
-#endif
-
-/*#define DONT_ENCRYPT_OR_COMPRESS*/
-#ifdef DONT_ENCRYPT_OR_COMPRESS
-static void CopyFile(const char *in, const char *out);
 #endif
 
 /*---------------------------------------------------------------------------
@@ -205,7 +201,7 @@ int GetPseudoRandomBit(int cmd)
             /* skip this DONT_EMBED */
             count = 0;
 #if defined(_DEBUG)
-            //printf("<*>");
+            printf("<*>");
 #endif
             /* return the next "command" */
             return GetPseudoRandomBit(NEXT);
@@ -213,7 +209,7 @@ int GetPseudoRandomBit(int cmd)
         else
         {
 #if defined(_DEBUG)
-            //printf("<%d>", res);
+            printf("<%d>", res);
 #endif
             return res;
         }
@@ -236,8 +232,8 @@ void GetTemporaryFileName(char pszTemp[260])
         ERROR("GetTemporaryFileName: could not create temporary file.");
 
 #ifdef WIN32
-    strcpy(pszTemp, buf); /* Dirty trick to bypass the / so the    */
-                              /* file won't be created in the root dir */
+    strcpy(pszTemp, buf);		/* Dirty trick to bypass the / so the    */
+								/* file won't be created in the root dir */
 #else
     strcpy(pszTemp, buf);
 #endif
@@ -282,7 +278,7 @@ size_t CompressEncryptFile(const char *pszInput, const char *pszOutput,
 		if (remove(tmp))
 			ERROR("CompressEncryptFile: could not delete temporary file.");
 #endif
-    }
+    } 
 
     return res;
 }
@@ -301,8 +297,8 @@ void Compress(const char *pszInput, const char *pszOutput)
     if ((fin = fopen(pszInput, "rb")) == NULL)
         ERROR("Compress: could not open input file.");
 
-    if ((fout = gzopen(pszOutput, "wb")) == NULL)
-        ERROR("Compress: could not create compressed file.");
+    if ((fout = gzopen(pszOutput, "wb")) == NULL) 
+        ERROR("Compress: could create compressed file.");
 
     for (;;)
 	{
@@ -459,7 +455,7 @@ void Encrypt(const char *pszInput, const char *pszOutput,
                     pSchedule[0], pSchedule[1], pSchedule[2], (des_cblock *)pIV, bEncrypt);
 
 #if defined(_DEBUG)
-               des_cblock_print_file(bufIn);
+                des_cblock_print_file(bufIn);
 #endif
             }
             else
@@ -491,18 +487,19 @@ void Encrypt(const char *pszInput, const char *pszOutput,
  *--------------------------------------------------------------------------
  */
 #if defined(DONT_ENCRYPT_OR_COMPRESS)
-static void CopyFile(const char *in, const char *out)
+static void CopyFile(const char *input, const char *out)
 {
     unsigned char ch;
-    int nRead;
+    int nRead, nWrite;
     FILE *fin, *fout;
 
-    fin = fopen(in, "rb");
-    fout = fopen(out, "wb");
+    fin = fopen(input, "rb");
+	fout = fopen(out, "wb");
+
     while (!feof(fin))
     {
         nRead = fread(&ch, 1, 1, fin);
-        fwrite(&ch, 1, nRead, fout);
+		nWrite = fwrite(&ch, 1, nRead, fout);
     }
     fclose(fin);
     fclose(fout);

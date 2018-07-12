@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decode", "Decoder\Decode.vcxproj", "{2074DDF4-26A0-4032-8EC3-2548D8B4C023}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5C4B74E2-D388-4D4E-BB58-E9B2B0CCD929} = {5C4B74E2-D388-4D4E-BB58-E9B2B0CCD929}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Encode", "Encoder\Encode.vcxproj", "{5C4B74E2-D388-4D4E-BB58-E9B2B0CCD929}"
 EndProject

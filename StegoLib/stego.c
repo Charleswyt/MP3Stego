@@ -76,7 +76,7 @@
 
 static FILE *fEmbeddedText = NULL;     /* File containing the hidden data */
 static unsigned char *pBuffer = NULL;  /* Buffer                          */
-static char pszTemp[260];             /* Name of temporary file that will*/
+static char pszTemp[256];              /* Name of temporary file that will*/
                                        /* be read or written by the stego */
 char pszPassPhrase[MAX_LEN];           /* Passphrase for encryption and   */
                                        /* bit selection                   */
@@ -107,19 +107,19 @@ void StegoOpenEmbeddedText(char *pszFileName, size_t nMaxHiddenBits)
     strcpy(pszPassPhrase, ReadPassPhrase());
 
     GetTemporaryFileName(pszTemp);
-    lData = CompressEncryptFile(pszFileName, pszTemp, pszPassPhrase, 0);
 
-    //GetPseudoRandomBit(RESET);
+    lData = CompressEncryptFile(pszFileName, pszTemp, pszPassPhrase, 1);
+
+    GetPseudoRandomBit(RESET);
     while (nEmbed < ((lData * 8) + 32))
     {
-        /*if (GetPseudoRandomBit(NEXT) == EMBED)
+        if (GetPseudoRandomBit(NEXT) == EMBED)
             nEmbed++;
         else
-            nDontEmbed++;*/
-		nEmbed++;
+            nDontEmbed++;
     }
     nRandomBits = nEmbed + nDontEmbed;
-    //GetPseudoRandomBit(RESET);
+    GetPseudoRandomBit(RESET);
 
     if (nRandomBits > nMaxHiddenBits)
         ERROR("StegoOpenEmbeddedText: data file too long. You can hide roughly %d bits.", nMaxHiddenBits);
@@ -254,7 +254,7 @@ void SaveHiddenBit(int bit)
 	if (fEmbeddedText && !bFinished && (GetPseudoRandomBit(NEXT) == EMBED))
 	{
 #if defined(_DEBUG)
-        //printf("%d", bit);
+        printf("%d", bit);
         fwrite(&bit, 1, 1, fEmbedded);
 #endif
 		if (pBuffer == NULL)
@@ -308,7 +308,7 @@ void SaveHiddenBit(int bit)
 void StegoFlushEmbeddedText(char *pszFileName)
 {
 #if defined(_DEBUG)
-       //fclose(fEmbedded);
+       fclose(fEmbedded);
 #endif
 
 	if (fEmbeddedText)

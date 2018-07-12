@@ -92,8 +92,8 @@ void fft(float x_real[BLKSIZE], float x_imag[BLKSIZE],
           t_imag = x_imag[i] + x_imag[ip];
           x_real[ip] = x_real[i] - x_real[ip];
           x_imag[ip] = x_imag[i] - x_imag[ip];
-          x_real[i] = t_real;
-          x_imag[i] = t_imag;
+          x_real[i] = (float)t_real;
+          x_imag[i] = (float)t_imag;
           t_real = x_real[ip];
           x_real[ip] = x_real[ip]*u_real - x_imag[ip]*u_imag;
           x_imag[ip] = x_imag[ip]*u_real + t_real*u_imag;

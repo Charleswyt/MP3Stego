@@ -1,4 +1,5 @@
 /* $Header: /StegoLib/sha.c 4     15/08/98 10:39 Fapp2 $ */
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdlib.h>
 #include "sha.h"

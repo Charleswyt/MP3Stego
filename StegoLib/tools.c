@@ -61,6 +61,9 @@
  * $Header: /StegoLib/tools.c 11    19/03/02 10:55 Fabienpe $
  *--------------------------------------------------------------------
  */
+#define _CRT_SECURE_NO_WARNINGS
+#define DONT_ENCRYPT_OR_COMPRESS
+
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -84,6 +87,12 @@ extern char *pszPassword;
 static char pszPass[MAX_LEN];
 
 #if defined(_DEBUG)
+#define DONT_ENCRYPT_OR_COMPRESS
+/*#define DONT_ENCRYPT_OR_COMPRESS*/
+#ifdef DONT_ENCRYPT_OR_COMPRESS
+static void CopyFile(const char *in, const char *out);
+#endif
+#else
 #define DONT_ENCRYPT_OR_COMPRESS
 /*#define DONT_ENCRYPT_OR_COMPRESS*/
 #ifdef DONT_ENCRYPT_OR_COMPRESS

@@ -61,6 +61,7 @@
  * $Header: /StegoLib/stego.c 9     12/09/02 10:04 Fabienpe $
  *--------------------------------------------------------------------
  */
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -141,7 +142,7 @@ int StegoGetNextBit()
 {
 	unsigned char *p;
 	static int bNeedMoreData = 1, bFinished = 0, bEOF = 0, bBody = 0;
-	static size_t nBufferIndex, maxBufferIndex, nBitIndex;
+	static size_t iBufferIndex, maxBufferIndex, nBitIndex;
 	size_t nRead;
 	int bit;
 	
@@ -181,13 +182,13 @@ int StegoGetNextBit()
 			    maxBufferIndex = nRead - 1;
 			bNeedMoreData = 0;
 		}
-		p = pBuffer + nBufferIndex;
+		p = pBuffer + iBufferIndex;
 		bit = (int)((*p >> nBitIndex) & 0x1);
 		nBitIndex = (nBitIndex + 1) % 8;
 		if (nBitIndex == 0)
 		{
-			nBufferIndex = (nBufferIndex + 1) % (maxBufferIndex + 1);
-			if (nBufferIndex == 0)
+			iBufferIndex = (iBufferIndex + 1) % (maxBufferIndex + 1);
+			if (iBufferIndex == 0)
 			{
 				if (bEOF) /* then ther's no more data to embedd */
 					bFinished = 1;

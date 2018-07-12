@@ -425,7 +425,7 @@ void II_dequantize_sample(unsigned int FAR sample[2][3][SBLIMIT],
 #endif
 
             /* MSB inversion */
-            if (((sample[k][j][i] >> x-1) & 1) == 1)
+            if (((sample[k][j][i] >> (unsigned int)x-1) & 1) == 1)
                 fraction[k][j][i] = 0.0;
             else  fraction[k][j][i] = -1.0;
 

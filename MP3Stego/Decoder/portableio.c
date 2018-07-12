@@ -53,6 +53,7 @@
  * Started revision control on this file.
  * Revision 2.6  91/04/30  17:06:02  malcolm
  */
+#define _CRT_SECURE_NO_WARNINGS
 
 #include	<stdio.h>
 #include	<math.h>

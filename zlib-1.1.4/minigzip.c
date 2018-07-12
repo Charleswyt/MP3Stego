@@ -14,6 +14,7 @@
  */
 
 /* @(#) $Id$ */
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include "zlib.h"
@@ -34,7 +35,7 @@
 #if defined(MSDOS) || defined(OS2) || defined(WIN32)
 #  include <fcntl.h>
 #  include <io.h>
-#  define SET_BINARY_MODE(file) setmode(fileno(file), O_BINARY)
+#  define SET_BINARY_MODE(file) _setmode(_fileno(file), O_BINARY)
 #else
 #  define SET_BINARY_MODE(file)
 #endif
@@ -215,7 +216,7 @@ void file_compress(file, mode)
     }
     gz_compress(in, out);
 
-    unlink(file);
+    _unlink(file);
 }
 
 
@@ -255,7 +256,7 @@ void file_uncompress(file)
 
     gz_uncompress(in, out);
 
-    unlink(infile);
+    _unlink(infile);
 }
 
 

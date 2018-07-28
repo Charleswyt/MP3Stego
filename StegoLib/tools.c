@@ -259,18 +259,15 @@ size_t CompressEncryptFile(const char *pszInput, const char *pszOutput,
     char tmp[260];
     struct stat stats;
     size_t res = 0;
-
-    GetTemporaryFileName(tmp);
-
+	printf("bCompEnc: %d\n", bCompEnc);
     /* Compress-encrypt or decrypt-uncompress depending on bCompEnc */
     if (bCompEnc)
     {
-#if defined(DONT_ENCRYPT_OR_COMPRESS)
-        CopyFile(pszInput, pszOutput);
-#else
+		GetTemporaryFileName(tmp);
         Compress(pszInput, tmp);
         Encrypt(tmp, pszOutput, pszPassPhrase, bCompEnc);
-#endif
+		if (remove(tmp))
+			ERROR("CompressEncryptFile: could not delete temporary file.");
                 
         if(stat(pszOutput, &stats) != 0)
             ERROR("CompressEncryptFile: could not determine file size.");
@@ -278,15 +275,10 @@ size_t CompressEncryptFile(const char *pszInput, const char *pszOutput,
     }
     else
     {
-#if defined(DONT_ENCRYPT_OR_COMPRESS)
         CopyFile(pszInput, pszOutput);
-#else
-        Encrypt(pszInput, tmp, pszPassPhrase, bCompEnc);
-        Uncompress(tmp, pszOutput);
-
-		if (remove(tmp))
-			ERROR("CompressEncryptFile: could not delete temporary file.");
-#endif
+		if (stat(pszOutput, &stats) != 0)
+			ERROR("CompressEncryptFile: could not determine file size.");
+		res = stats.st_size;
     } 
 
     return res;

@@ -109,10 +109,12 @@ void StegoOpenEmbeddedText(char *pszFileName, size_t nMaxHiddenBits)
 
     GetTemporaryFileName(pszTemp);
 
-    lData = CompressEncryptFile(pszFileName, pszTemp, pszPassPhrase, 1);
+    lData = CompressEncryptFile(pszFileName, pszTemp, pszPassPhrase, 0);
+	printf("lData: %d\n", lData);
 
     GetPseudoRandomBit(RESET);
-    while (nEmbed < ((lData * 8) + 32))
+    //while (nEmbed < ((lData * 8) + 32))
+	while (nEmbed < lData * 8)
     {
         if (GetPseudoRandomBit(NEXT) == EMBED)
             nEmbed++;
@@ -120,6 +122,8 @@ void StegoOpenEmbeddedText(char *pszFileName, size_t nMaxHiddenBits)
             nDontEmbed++;
     }
     nRandomBits = nEmbed + nDontEmbed;
+	printf("nEmbed: %d, nDontEmbed: %d, nRandomBits: %d\n", nEmbed, nDontEmbed, nRandomBits);
+
     GetPseudoRandomBit(RESET);
 
     if (nRandomBits > nMaxHiddenBits)

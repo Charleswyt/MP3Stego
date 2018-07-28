@@ -159,7 +159,7 @@ static int inner_loop(double xr[2][2][576],  int l3_enc[2][2][576],
     ix  = l3_enc[gr][ch];
 
     if (max_bits<0) ERROR("Ehhh !?!, negative compression !?!");
-    cod_info->quantizerStepSize -= 1.0;;
+    cod_info->quantizerStepSize -= 1.0;
     do
     {
         do

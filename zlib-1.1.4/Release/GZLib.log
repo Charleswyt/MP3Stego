@@ -1,0 +1,21 @@
+﻿  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzio.c
+  infblock.c
+  infcodes.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  infutil.c
+  minigzip.c
+minigzip.c(302): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2450): note: 参见“fileno”的声明
+minigzip.c(306): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2450): note: 参见“fileno”的声明
+  trees.c
+  uncompr.c
+  zutil.c
+  正在生成代码...
+  GZLib.vcxproj -> E:\Myself\1.source_code\MP3Stego\zlib-1.1.4\.\Release\GZLib.lib

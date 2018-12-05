@@ -1,0 +1,2 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(E:\Myself\1.source_code\MP3Stego\MP3Stego\x64\Release\StegoLib.lib) does not match the Library's OutputFile property value (E:\Myself\1.source_code\MP3Stego\StegoLib\Release\StegoLib.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+.\Release/stego.obj : fatal error LNK1112: 模块计算机类型“X86”与目标计算机类型“x64”冲突

@@ -1,0 +1,115 @@
+﻿  common.c
+common.c(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+common.c(190): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+common.c(191): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+common.c(226): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+common.c(245): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+common.c(248): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+common.c(570): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+common.c(764): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+common.c(768): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+common.c(840): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+common.c(869): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+common.c(863): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+common.c(910): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+common.c(1326): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+common.c(1338): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+common.c(1339): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+common.c(1340): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+common.c(1381): warning C4018: “<”: 有符号/无符号不匹配
+  decode.c
+decode.c(428): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+decode.c(433): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+decode.c(434): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+decode.c(461): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+decode.c(463): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+decode.c(464): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+decode.c(467): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+decode.c(563): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+decode.c(1116): warning C4018: “<”: 有符号/无符号不匹配
+decode.c(1261): warning C4018: “<”: 有符号/无符号不匹配
+decode.c(1290): warning C4013: “rewindNbits”未定义；假设外部返回 int
+decode.c(1927): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  huffman.c
+huffman.c(64): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+huffman.c(74): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+huffman.c(87): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+huffman.c(116): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+huffman.c(118): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+huffman.c(200): warning C4018: “<”: 有符号/无符号不匹配
+huffman.c(159): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+huffman.c(169): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+huffman.c(178): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+huffman.c(201): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+huffman.c(324): warning C4018: “<”: 有符号/无符号不匹配
+huffman.c(330): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+huffman.c(331): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+  ieeefloat.c
+ieeefloat.c(181): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+ieeefloat.c(182): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+ieeefloat.c(183): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+ieeefloat.c(309): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+ieeefloat.c(310): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+ieeefloat.c(311): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+ieeefloat.c(313): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+ieeefloat.c(314): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+ieeefloat.c(315): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+ieeefloat.c(407): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+ieeefloat.c(408): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+ieeefloat.c(409): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+ieeefloat.c(411): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+ieeefloat.c(412): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+ieeefloat.c(413): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+  musicout.c
+musicout.c(211): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+musicout.c(638): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+musicout.c(642): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+musicout.c(647): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+musicout.c(663): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+musicout.c(665): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+musicout.c(667): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+musicout.c(673): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+musicout.c(674): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  portableio.c
+portableio.c(201): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+portableio.c(209): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(E:\Myself\1.source_code\MP3Stego\MP3Stego\x64\Debug\Decode.exe) does not match the Linker's OutputFile property value (E:\Myself\1.source_code\MP3Stego\MP3Stego\Decoder\Debug\Decode.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+decode.obj : error LNK2019: 无法解析的外部符号 SaveHiddenBit，该符号在函数 III_hufman_decode 中被引用
+musicout.obj : error LNK2019: 无法解析的外部符号 StegoCreateEmbeddedText，该符号在函数 main 中被引用
+musicout.obj : error LNK2019: 无法解析的外部符号 StegoFlushEmbeddedText，该符号在函数 main 中被引用
+E:\Myself\1.source_code\MP3Stego\StegoLib\Debug\StegoLib.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+E:\Myself\1.source_code\MP3Stego\zlib-1.1.4\Debug\GZLib.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+.\Debug/Decode.exe : fatal error LNK1120: 3 个无法解析的外部命令

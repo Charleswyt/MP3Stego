@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>-b 128 -E C:\Users\Charles_CatKing\Desktop\MP3Stego_1_1_18\MP3Stego\Encoder\Debug\hidden_text.txt -P pass C:\Users\Charles_CatKing\Desktop\MP3Stego_1_1_18\MP3Stego\Encoder\Debug\wav10s_00001.wav test.mp3</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>
+    </LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-b 128 -E C:\Users\Charles_CatKing\Desktop\MP3Stego_1_1_18\MP3Stego\Encoder\Debug\hidden_text.txt -P pass C:\Users\Charles_CatKing\Desktop\MP3Stego_1_1_18\MP3Stego\Encoder\Debug\wav10s_00001.wav test.mp3</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommand>
+    </LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-b 128 -E E:\Myself\2.database\5.stego_info\MP3Stego\stego_05.txt -P pass E:\Myself\1.source_code\MP3Stego\MP3Stego\Encoder\Release\wav10s_00035.wav test.mp3</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommand />
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-b 128 -E E:\Myself\2.database\5.stego_info\MP3Stego\stego_05.txt -P pass E:\Myself\1.source_code\MP3Stego\MP3Stego\Encoder\Release\wav10s_00035.wav test.mp3</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+</Project>

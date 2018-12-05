@@ -1,0 +1,107 @@
+﻿  portableio.c
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\portableio.c(201): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\portableio.c(209): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+  musicout.c
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\musicout.c(211): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\musicout.c(639): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\musicout.c(643): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\musicout.c(648): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\musicout.c(664): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\musicout.c(666): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\musicout.c(668): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\musicout.c(674): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\musicout.c(675): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  ieeefloat.c
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(181): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(182): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(183): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(309): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(310): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(311): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(313): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(314): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(315): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(407): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(408): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(409): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(411): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(412): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\ieeefloat.c(413): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+  huffman.c
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(64): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(74): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(87): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(116): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(118): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(200): warning C4018: “<”: 有符号/无符号不匹配
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(159): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(169): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(178): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(201): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(324): warning C4018: “<”: 有符号/无符号不匹配
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(330): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\huffman.c(331): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+  decode.c
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(428): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(433): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(434): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(461): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(463): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(464): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(467): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(563): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(1116): warning C4018: “<”: 有符号/无符号不匹配
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(1261): warning C4018: “<”: 有符号/无符号不匹配
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(1290): warning C4013: “rewindNbits”未定义；假设外部返回 int
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\decode.c(1927): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  common.c
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(190): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(191): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(226): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(245): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(248): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(570): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(840): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(863): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(910): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(1338): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(1339): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(1340): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+e:\myself\1.source_code\mp3stego\mp3stego\decoder\common.c(1381): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+common.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  Decode.vcxproj -> E:\Myself\1.source_code\MP3Stego\MP3Stego\Decoder\.\Debug\Decode.exe
+  Decode.vcxproj -> .\Debug/Decode.pdb (Full PDB)

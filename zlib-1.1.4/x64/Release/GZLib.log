@@ -1,0 +1,69 @@
+﻿  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzio.c
+gzio.c(243): warning C4267: “=”: 从“size_t”转换到“uInt”，可能丢失数据
+gzio.c(390): warning C4267: “-=”: 从“size_t”转换到“uInt”，可能丢失数据
+gzio.c(401): warning C4267: “=”: 从“size_t”转换到“uInt”，可能丢失数据
+gzio.c(539): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  infblock.c
+infblock.c(140): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(165): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(182): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(186): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(192): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(201): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(202): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(217): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(225): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(232): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(241): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(258): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(271): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(284): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(297): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(326): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(332): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(339): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(357): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(361): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(364): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infblock.c(367): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+  infcodes.c
+infcodes.c(108): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(123): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(158): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(161): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(170): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(190): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(193): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(204): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(213): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(227): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(231): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(234): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+infcodes.c(237): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+  inffast.c
+inffast.c(102): warning C4244: “=”: 从“__int64”转换到“uInt”，可能丢失数据
+inffast.c(142): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+inffast.c(166): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+inffast.c(173): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+inffast.c(181): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+  inflate.c
+inflate.c(337): warning C4244: “+=”: 从“__int64”转换到“uLong”，可能丢失数据
+  inftrees.c
+  infutil.c
+  minigzip.c
+minigzip.c(116): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+minigzip.c(233): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+minigzip.c(302): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2450): note: 参见“fileno”的声明
+minigzip.c(306): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2450): note: 参见“fileno”的声明
+  trees.c
+  uncompr.c
+  zutil.c
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(E:\Myself\1.source_code\MP3Stego\MP3Stego\x64\Release\GZLib.lib) does not match the Library's OutputFile property value (E:\Myself\1.source_code\MP3Stego\zlib-1.1.4\Release\GZLib.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  GZLib.vcxproj -> E:\Myself\1.source_code\MP3Stego\MP3Stego\x64\Release\GZLib.lib
